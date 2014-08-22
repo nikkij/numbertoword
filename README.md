@@ -1,13 +1,13 @@
 # Numbertoword
 
-TODO: Write a gem description
+A little demo gem that changes numbers into words.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'numbertoword'
+gem 'numbertoword', :git => 'https://github.com/nikkij/numbertoword.git'
 ```
 
 And then execute:
@@ -16,11 +16,11 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install numbertoword
+    $ gem 'numbertoword', github: 'nikkij/numbertoword'
 
 ## Usage
 
-TODO: Write usage instructions here
+Just type the command "numbertoword" at the console.
 
 ## Contributing
 
