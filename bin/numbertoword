@@ -1,3 +1,15 @@
 !#/usr/bin/env ruby
 
 require "numbertoword"
+
+converter = Numbertoword::Convert.new
+
+print "Please enter a number: "
+
+numberToConvert = STDIN.gets.chomp()
+
+converted = converter.num_to_word(numberToConvert.to_i)
+
+puts <<MESSAGE
+Alright, you said #{numberToConvert} and #{converted} is my favorite number.
+MESSAGE
