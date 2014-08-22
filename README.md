@@ -2,6 +2,10 @@
 
 A little demo gem that changes numbers into words.
 
+## Requirements
+
+This gem is built for ruby 2.0.0 and above.
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -26,7 +30,11 @@ To run the rspec tests make sure you have the rspec gem installed or specified a
 
 ## Usage
 
-Just type the command "numbertoword" at the console. At the prompt enter any number from 1 - 999,999,999 .
+Just type the command "numbertoword" at the console. 
+
+	$ numbertoword
+
+At the prompt enter any number from 1 - 999,999,999 .
 
 ## Contributing
 
