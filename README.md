@@ -14,13 +14,19 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
+Or install locally for development or to run tests:
 
-    $ gem 'numbertoword', github: 'nikkij/numbertoword'
+    $ git clone https://github.com/nikkij/numbertoword.git
+
+    $ cd numbertoword
+
+    $ rake install
+
+To run the rspec tests make sure you have the rspec gem installed or specified as a dependency in your Gemfile.
 
 ## Usage
 
-Just type the command "numbertoword" at the console.
+Just type the command "numbertoword" at the console. At the prompt enter any number from 1 - 999,999,999 .
 
 ## Contributing
 
